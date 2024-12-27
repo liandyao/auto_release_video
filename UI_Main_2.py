@@ -11,7 +11,7 @@ import sys
 
 from PySide6.QtWidgets import QApplication, QMainWindow, QFileDialog
 from ui.ar_ui2 import Ui_Form  # 导入自动生成的 UI 类
-from video_jian import add_video_cover
+import add_video_cover
 from web_auto_relase2_0 import AutoRelease
 
 ks_account = './account.json'
